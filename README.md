@@ -27,7 +27,7 @@
 
 ## 注意
 
-- **署名鍵が jp 系列と異なります。** jp.91-preview2 など旧版の上には上書きインストールできません。初回だけ、大切なセーブを先に書き出して保管し、旧版をアンインストールしてから本ビルドを新規インストールしてください。個人用ビルド同士（本ビルド以降）は同じ鍵なので上書きできます。
+- **署名鍵は jp 系列と同じものです。** jp.91-preview2 など旧版の上に、そのまま上書きインストールして更新できます（セーブもそのまま引き継がれます）。本ビルド以降も同じ鍵で署名するので、上書きで更新できます。
 - 本ビルドは実機での動作確認をしていません。WIP だった作業分を含むため、問題があれば教えてください。
 - 個人で楽しむためのビルドです。
 
@@ -39,17 +39,18 @@ tests/       テスト一式（*_test.lua が 887 本）
 tools/       テストゲート（setup_tb.py / run_tests.sh / gate.sh / base.tsv）
 mods_src/    同梱 MOD のソース（DRAMALESS_SHAPE 改修版など）
 build_deps/  repack_controls.py（AndroidManifest 書換え）
-build.py     ビルドスクリプト
+build.py     ビルドスクリプト（個人用の新規鍵で署名する旧版）
+build_resign.py 配布用ビルドスクリプト（元の jp 系列の鍵で署名）
 version.json 現在の最新版の情報（Releases にも同じものを添付）
 ```
 
 ビルドは「jp.90 の APK を土台に、game.love だけ差し替えて再署名する」方式です。
 
 ```sh
-python3 build.py
+python3 build_resign.py
 ```
 
-必要なもの： Python 3、JDK 17、Android SDK build-tools（34.0.0 で確認）、土台になる jp.90 の APK（`../base/Pocket-Recomp-jp90-20261022.apk` に配置。SHA-256 は build.py 内で照合します。リポジトリには含めていません）、署名鍵（`../signing/` に保管。リポジトリには含めていません）。
+必要なもの： Python 3、JDK 17、Android SDK build-tools（34.0.0 で確認）、土台になる jp.90 の APK（`../base/Pocket-Recomp-jp90-20261022.apk` に配置。SHA-256 はスクリプト内で照合します。リポジトリには含めていません）、署名鍵（元の jp 系列の鍵を `../signing-original/` に保管。リポジトリには含めていません）。
 
 - build.py は game.love を作る際に、ROM・セーブ・署名鍵などのファイルや、ROM から生成されたキャッシュが混入していないことを必ず確認します。
 - 16 KB ページアラインは build.py 内蔵のアライナで行います（zipalign -P 16 相当）。
