@@ -39,25 +39,35 @@ import hashlib, json, os, re, struct, subprocess, sys
 
 ROOT = Path(__file__).resolve().parent           # clean/
 WORK = ROOT.parent                               # ~/workspace/pocket_recomp
-BASE_APK = WORK / 'base' / 'Pocket-Recomp-jp90-20261022.apk'
+# Machine-specific locations can be overridden by environment variables
+# (PR_BASE_APK, PR_SIGN_DIR, PR_SDK_BT, PR_JDK); keys never live in the repo.
+BASE_APK = Path(os.environ.get('PR_BASE_APK',
+                WORK / 'base' / 'Pocket-Recomp-jp90-20261022.apk'))
 BASE_SHA256 = '03c2c989d1dd2593faaf883cfbd0433128101ea6ae9464d47f294e857f461a0c'
 PREVIEW2_APK = WORK / 'base' / 'Pocket-Recomp-jp91-preview2-20261023.apk'
 PACKAGE = 'org.gen1recomp.japanese.preview'
-OLD_CODE, NEW_CODE = 93, 95
+OLD_CODE, NEW_CODE = 93, 96
 OLD_VERSION = '0.2.90-jp.90'
-NEW_VERSION = '0.2.91-jp.91-personal'
+NEW_VERSION = '0.2.96-personal'
 LABEL = 'ポケットリコンプ'
 GAME = ROOT / 'game'
 BUILD = ROOT / 'build'
 OUT_APK = ROOT / 'PocketRecomp-personal.apk'
-SIGN_DIR = WORK / 'signing-original'
+SIGN_DIR = Path(os.environ.get('PR_SIGN_DIR', WORK / 'signing-original'))
 KEYSTORE = SIGN_DIR / 'debug.keystore'
+# either a single keystore.pass, or keystore_password.txt + key_password.txt
 PASS_FILE = SIGN_DIR / 'keystore.pass'
+if not PASS_FILE.exists():
+    PASS_FILE = SIGN_DIR / 'keystore_password.txt'
+KEY_PASS_FILE = SIGN_DIR / 'key_password.txt'
+if not KEY_PASS_FILE.exists():
+    KEY_PASS_FILE = PASS_FILE
 ALIAS = 'androiddebugkey'
 JP_CERT_SHA256 = ('c469ecb3fcd30df41bbd2b9dfea887404a65c71e'
                   '778e200a57c112c51f92f39c')
-SDK_BT = Path.home() / 'android-sdk' / 'build-tools' / '34.0.0'
-JDK = Path.home() / 'workspace' / 'tools' / 'jdk17'
+SDK_BT = Path(os.environ.get('PR_SDK_BT',
+              Path.home() / 'android-sdk' / 'build-tools' / '34.0.0'))
+JDK = Path(os.environ.get('PR_JDK', Path.home() / 'workspace' / 'tools' / 'jdk17'))
 
 sys.path.insert(0, str(ROOT / 'build_deps'))
 from repack_controls import patch_manifest  # noqa: E402
@@ -73,6 +83,7 @@ ENV = dict(os.environ)
 ENV['PATH'] = f"{JDK / 'bin'}:{SDK_BT}:{ENV.get('PATH', '')}"
 ENV['JAVA_HOME'] = str(JDK)
 ENV['PR_SIGN_PASS'] = PASS_FILE.read_text().strip()
+ENV['PR_KEY_PASS'] = KEY_PASS_FILE.read_text().strip()
 
 
 def _local_entries(data):
@@ -220,7 +231,7 @@ def main():
         OUT_APK.unlink()
     run([SDK_BT / 'apksigner', 'sign',
          '--ks', KEYSTORE, '--ks-key-alias', ALIAS,
-         '--ks-pass', 'env:PR_SIGN_PASS', '--key-pass', 'env:PR_SIGN_PASS',
+         '--ks-pass', 'env:PR_SIGN_PASS', '--key-pass', 'env:PR_KEY_PASS',
          '--v4-signing-enabled', 'false',
          '--out', OUT_APK, aligned], 'sign.log')
 

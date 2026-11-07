@@ -2,3 +2,21 @@ build/
 PocketRecomp-personal.apk
 __pycache__/
 *.pyc
+
+# never commit: ROMs / saves / signing material / ROM-derived data
+*.gb
+*.gbc
+*.gba
+*.sav
+*.srm
+*.ips
+*.bps
+*.delta.bin
+runtime-localization.inc
+private-arrays.inc
+*.apk
+*.jks
+*.keystore
+*.p12
+*password*.txt
+private-signing/
