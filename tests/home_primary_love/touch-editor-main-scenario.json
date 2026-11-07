@@ -1,0 +1,100 @@
+{
+  "phases": [
+    {
+      "name": "01-home",
+      "page": "games"
+    },
+    {
+      "name": "02-settings-categories",
+      "page": "settings",
+      "actions": [
+        {
+          "click": {
+            "id": "home-settings"
+          }
+        }
+      ],
+      "check": "return imp._settings.sections[4].title=='そうさ'"
+    },
+    {
+      "name": "03-controls",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "click": {
+            "id": "settings-section-4"
+          }
+        }
+      ],
+      "check": "local a,b=false,false; for _,r in ipairs(imp._settings.sections[4].rows)do a=a or r.id=='editTouchControls';b=b or r.id=='openSkinStudio' end; return a and b"
+    },
+    {
+      "name": "04-touch-editor",
+      "actions": [
+        {
+          "key": "down"
+        },
+        {
+          "key": "down"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "local e=package.loaded['src.ui.TouchControlsEditor'];return e and e.onClose~=nil and e._closed==false and e.version=='red_jp'"
+    },
+    {
+      "name": "05-back-home",
+      "page": "games",
+      "actions": [
+        {
+          "key": "escape"
+        }
+      ],
+      "check": "return package.loaded['src.ui.TouchControlsEditor'].onClose==nil"
+    },
+    {
+      "name": "06-controls-again",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "click": {
+            "id": "home-settings"
+          }
+        },
+        {
+          "click": {
+            "id": "settings-section-4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "07-skin-studio",
+      "actions": [
+        {
+          "key": "down"
+        },
+        {
+          "key": "down"
+        },
+        {
+          "key": "down"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "local s=package.loaded['src.ui.SkinStudio'];return s and s.onClose~=nil and s.version=='red_jp'"
+    },
+    {
+      "name": "08-back-home",
+      "page": "games",
+      "actions": [
+        {
+          "key": "escape"
+        }
+      ]
+    }
+  ]
+}

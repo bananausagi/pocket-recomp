@@ -1,0 +1,163 @@
+[
+  {
+    "id": "ACCESS_PC_ANYWHERE",
+    "version": "1.0.1",
+    "url": "https://github.com/masterwebx/gen1recomp-access-pc-anywhere/releases/download/v1.0.1/ACCESS_PC_ANYWHERE-1.0.1.zip",
+    "sha256": "3fc05864bebecccd63be56b1653d8c2efc44d0307f85e9980ca6bf29f64e7c40",
+    "file": "ACCESS_PC_ANYWHERE.zip",
+    "sources": {
+      "main.lua": "3198afb169d98de9889240ef9bb52b051d73b5108cf63c152c7186b754dba33c",
+      "manifest.json": "461c1720dadd1aa12130c9545d96a998089ff81c20b39ab8e931cb77031167bc"
+    }
+  },
+  {
+    "id": "CONTROLLER_RUMBLE",
+    "version": "1.0.3",
+    "url": "https://github.com/masterwebx/gen1recomp-controller-rumble/releases/download/v1.0.3/CONTROLLER_RUMBLE-1.0.3.zip",
+    "sha256": "6450f5e0d6e36fc3f3d9bd048415feb9f94f047a4309cc37d9998202bd9e7334",
+    "file": "CONTROLLER_RUMBLE.zip",
+    "sources": {
+      "lib\\ExtraEvents.lua": "2267d4dd5591a1b3db47c4a2b879bbfeaff84b6041573836aadf8f3e0500574f",
+      "lib\\Extras.lua": "a9ad982de56a504c0b6246f5388f554a495d307528d1828a7064c4ab2562413c",
+      "lib\\HpRumble.lua": "d4c6cde4ee5414fe5a14570d72841884ff6c72a138c77dff46370266cd4e772a",
+      "lib\\MenuRumble.lua": "6791c9b63c4d81fbf632d7af0436ef11dd3e32440c6ab790305c6a3b9003d56e",
+      "lib\\OptionsScreen.lua": "f0810aa2e887a9600d9e88748c2e927e393548b256f6e08e7f11fae01515d34c",
+      "lib\\Rumble.lua": "24ee06f5e5c75ce76a3c44eda2952e674d61f37a360c464578e44475a75cdbca",
+      "lib\\Settings.lua": "8f433b7410fc11eb32010a894b8f4db4f2324f64b7fc12dc0a42b8fe28a23908",
+      "lib\\ShakeSync.lua": "bb2f7d8b08512d0d45d233b59afae94d78106987287de52624a9b6e26273d4cb",
+      "main.lua": "076ef49652112b76290718d0da1f77b798f487f2e9fdbedcf0f5869784b0efc6",
+      "manifest.json": "3c2d078b53fb4e29de5ae93cce728ca9608233a7ccba9c4bda0d56efbfd18b96"
+    }
+  },
+  {
+    "id": "exp_share",
+    "version": "0.1.10",
+    "url": "https://github.com/Nexhas28/exp_share/releases/download/v0.1.10/exp_share-0.1.10.zip",
+    "sha256": "7a22e8d143b27b857773db350d969f3f5b31f0e2c813cd82d4181ef2c3d85f86",
+    "file": "exp_share.zip",
+    "sources": {
+      "main.lua": "ee4824ef059d4dd47a3f44fcd8159740a0b6debaf5c9c4753ca5ad2354d6f0c3",
+      "tests/custom_test.lua": "263f17c47bf5958a7e8b0fca7f5ea3003db3d16a0917e5c60d914f4c1574ba3f",
+      "tests/exp_share_test.lua": "d291253c70597139f2e07131ba38678ae48145ed2dd7185471ba7bfc8121cc89",
+      "manifest.json": "9a700324556b55a97b9bab2935184a56c6fb89b78671c0d22b3c09718103b070"
+    }
+  },
+  {
+    "id": "running_shoes",
+    "version": "1.10.0",
+    "url": "https://github.com/MadeinTaly/gen1recomp-running-shoes/releases/download/v1.10.0/running_shoes-1.10.0.zip",
+    "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b",
+    "file": "running_shoes.zip",
+    "sources": {
+      "main.lua": "f08a6406c17367b65251c9e8404064f6f875d7d987577398381fb4eebe2a5e67",
+      "manifest.json": "b947e57990f5c3e0cef5d6bfd7680d5e95b9ad89b2b63ce30dcc75914bb837a7"
+    }
+  },
+  {
+    "id": "SHINY_POKEMON",
+    "version": "1.0.1",
+    "url": "https://github.com/masterwebx/gen1recomp-shiny-pokemon/releases/download/v1.0.1/SHINY_POKEMON-1.0.1.zip",
+    "sha256": "90d2be6fcec1383bb9beec5df9038308b68fa903eb179840b344c7b6e48ccb59",
+    "file": "SHINY_POKEMON.zip",
+    "sources": {
+      "main.lua": "54825a3eb34872496aa63bc2ef537b342e1cafa37179c9acf9766288639220fa",
+      "manifest.json": "e86b584de0785f633f3a937e2c650970c64e2942dccfb8e1eb42c5aca3a29b7d",
+      "shiny_palettes.lua": "91fca7634735387e78f367d14b73924de4f15c4d889987a04a37c67e758fc24d"
+    }
+  },
+  {
+    "id": "trainer_rematch",
+    "version": "0.5.4",
+    "url": "https://github.com/Nexhas28/trainer_rematch/releases/download/v0.5.4/trainer_rematch-0.5.4.zip",
+    "sha256": "ced809e2c4cefacee9462e185c245ffe01aad5b937e8c801b0cf00abfb1b36a5",
+    "file": "trainer_rematch.zip",
+    "sources": {
+      "manifest.json": "2c09393a15ec7ba2ba071d9b46fc416fd67b89fb84f5b2861d1529acdc846490",
+      "main.lua": "2c9510bfb17c4676e9dce980139bd92073ae4b1b7fb22fbb984bce6e79e3b301"
+    }
+  },
+  {
+    "id": "useful_move_info",
+    "version": "1.4.0",
+    "url": "https://github.com/Nexhas28/useful-move-info/releases/download/v1.4.0/useful_move_info-1.4.0.zip",
+    "sha256": "33f25d832de386a47113c82d5744c1cf2b6b6688cfb719b5ec5e3707159e4340",
+    "file": "useful_move_info.zip",
+    "sources": {
+      "tests/useful_move_info_test.lua": "6fbc6b15b360f73011ce6bb440ccd0133c36a75f0d15c35ef42ca8c4c90ef5aa",
+      "main.lua": "5b9104ef35abcab590ee020276776558a6239b098a42ee97d9a0943c1e0d7077",
+      "manifest.json": "0333335f93f00ec6a444dfd81e33fefd57347eb9b80934ca9e82a54cef5b69df"
+    }
+  },
+  {
+    "id": "DRAMALESS_SHAPE",
+    "version": "2.0.4",
+    "url": "https://github.com/artyrambles/DRAMALESS_SHAPE/releases/download/v2.0.4/DRAMALESS_SHAPE-2.0.4.zip",
+    "sha256": "0e074028cfca781385d50d8b4e814614e6dc62a26a774277e0a75d2cc5ce7341",
+    "file": "DRAMALESS_SHAPE.zip",
+    "sources": {
+      "data/battle_arenas.lua": "3ab3e913a0e623fd0618e2557e38b66d6ae672f8f6f875f5241525e141acdd5e",
+      "data/voxel_heights.lua": "8721453616496da09ef17667c1bbb2945bf9b85c39ed242d33c4e3c814d67c13",
+      "lib/AntiAlias.lua": "4e331ac591edc3cefa75d880c71d40664ca96157e6dca46a35c574cf96833daa",
+      "lib/BattleArena.lua": "eff9f8ddab2602787a45b4d7e5ba231674125ee9486482a34241af71427bf57e",
+      "lib/BattleBillboard.lua": "78bf63cbee89ba9cef3cc04cc77969ad9aa8c0cf90fa1bf3499d8253c9d965b0",
+      "lib/BattleCam.lua": "8c3217453883aa1371d0183832e49479610d7af25b31cc4c404849a6cfbd7c37",
+      "lib/BattlePics.lua": "c67e736b4a921f67759cce1d12ea98702f428f0af4e2e21004505a3553845d04",
+      "lib/BuildBudget.lua": "e8d50431f43ceb27e0d7b78358a507558caf1862ba77c5777f6b25aab958195e",
+      "lib/Buildings.lua": "8e5d0a067e2357b0fadf3630a414f524e44f79bc79938fcf1e4d5a2b8dd65ec4",
+      "lib/CamControl.lua": "da4013653b8cf040597793a518925d585c55f7ea03c5b31bf597d11642c5b641",
+      "lib/ChunkMesher.lua": "0cbc2c7f873db88ab9a57514274e0f80ae3dff780dacab173645108d7c6f5048",
+      "lib/DayNight.lua": "1b97d63e709e890381c04802b662959b60a1e1ae24ffb36ce0c53e213b9fdf60",
+      "lib/DayTint.lua": "e2589c1d056deabdd2c15014e444ca36fdb8885224d32761bc830dbd77a629a5",
+      "lib/DramalessLog.lua": "cc560fcf5455881127c481ce824917bff288cd5a8ea1132b41347493af0a8b23",
+      "lib/DramalessLogExport.lua": "2440c9650f6a3d309b70024a6a82e574a65d38e981a9f8db4d840e7d7ad0b8d7",
+      "lib/FirstPerson.lua": "6dffd7f75187574b266c92cff87c3b97199f36293284146f3bdac78167267594",
+      "lib/FreeMove.lua": "dbf39497ae26b74dc12f2245aac44eee406852d47fca526c3e3a6bcc1704e4dc",
+      "lib/GlassMask.lua": "3be073d52beb63252872cc23980615524b9aef0504125841ddc7a1115b2a0caa",
+      "lib/MapGrids.lua": "cee347e4d32c9fddee75c91183bff749bf66000ea35cd54e394e8b867f5ba17a",
+      "lib/Mat4.lua": "b394056c86a0b70a056ce67911c13a5a56e38ec49706b5305bacc458fc14cd7f",
+      "lib/ModSetting.lua": "d9663a47e7116ff0aebc6427606e9975b32ef6a40b9ef509c72d9a8203c6126d",
+      "lib/PixelCanvas.lua": "eabaad69c7360d909308debf6ec71356c75c76fa4b7e7d33f14a85e770464697",
+      "lib/PoisonFlash.lua": "b8d8ebfb8b3d06af2b0119bcbce12da1dc677bdfe8058dcda508743738674c5b",
+      "lib/Quality.lua": "b25764f9afd3a477926780727f4b7dda6286fa357540cf92428c56ced0046663",
+      "lib/ShadowMap.lua": "b0f114a2599ba5a046ca50ef8a4bba64174119610b41a26e315107268b9a3964",
+      "lib/Shadows.lua": "cc8ff42e5e8adab9e0b4309ff4907ce6d72e325c2d4d2e61d51452cb4e5f5b6e",
+      "lib/Sky.lua": "1a2dcc4ca39c04fffd67434ec0c891c9159f9120f10ada6f4a22acdc56125ed1",
+      "lib/SpriteBillboards.lua": "b00d43635f8b23b757b29b28d6b3954bb4c03e71b9294888e16aebd0e7293bf7",
+      "lib/StadiumBattleFxBridge.lua": "6fc2eed058ad7095d460634496d649194e82017a9fb0aa2a31e7c1ba787b8401",
+      "lib/Structures.lua": "620e6ad5b372d0d85537d9aec78898b4e31dc387cc6edd389b784555d8f619d9",
+      "lib/TerrainAtlas.lua": "ccaee05dfdf4d369a5fdc8ae3704b80a1818c432f84c25fce2f300f7d0893077",
+      "lib/ThirdPerson.lua": "80fdf06197c89102b83df6a894d7b36ee3772a0bdedd67d0a9bc3290e6d80269",
+      "lib/TileShape.lua": "a90503753bde50525dacaa04ae913c973b7efb6f3438ef2f3fd2add83b72d942",
+      "lib/TiltShift.lua": "162800a03e5e407e06103b20b0f193e7043902edccb3908091c72dfb493b91b3",
+      "lib/Voxel3D.lua": "b685bdcee6c21175dd57eee38f2cd33baafbd71c5db5bf6717b43b1b4ac1ad36",
+      "lib/VoxelBattleArenaProvider.lua": "7271c73304386729af83c933c76cb1f440caf090804b8ab8b39dab98eb228a9d",
+      "lib/VoxelBattleCardProvider.lua": "69fe60d7a440378d735e15b2f7b0dfcb7109d1013cbb0706a05825e932d4dbe2",
+      "lib/VoxelBattleScene.lua": "c02f2dabb20655318b4fc280f8f5fd1d467148cd9fc1fae129f111c2f30ca0c8",
+      "lib/VoxelBattleStandalone.lua": "b2edf6cd6802aa0ec361a233553da0683272b882ac966d52af6e909910dcfe23",
+      "lib/VoxelCompanionApi.lua": "6fded9c804298ab064db61b908382be7c9a74ad29d611444c33e1bcc53a33d26",
+      "lib/VoxelCompanionHost.lua": "165b42702e979fd770b664a7ec18fa2112b78165e75ae9daf4315c34e5112dd7",
+      "lib/VoxelCompanionRenderer.lua": "f3076d01f8c20759aedfe64381417524e876f9544129915d2fdee27fcd553bcb",
+      "lib/VoxelGrid.lua": "de35e17890eed4e6f4f95afbcc0de0bb7b7940c792cc279d9df68a2d5e43d229",
+      "lib/VoxelLoadingVeil.lua": "f1bb28462808e05ad3ee12f1164884ca2e4a2faf8da50dabc6b6a1b5be46ed5b",
+      "lib/VoxelMeshDisk.lua": "2c3e524f926c1d532d30db26fd92b896d51bb5de0a8068182251ec9eb912e9c4",
+      "lib/VoxelPrecache.lua": "dcb29cf51f0e85e8e402511c72e32acece210adb6c766fdf89f193c5f740c7a3",
+      "lib/VoxelScene.lua": "8f5b16eb4bb9b4a4ebf840616d0a9da1cae5fdc7d817cfe267fee3dfcf934233",
+      "lib/VoxelState.lua": "4f2bbdc705e93bfdb6e8d3d2b192e4f96d144f94e125b036f6faf1217ab85302",
+      "lib/Water.lua": "f896a5cf046df377619ecbb6c57eb0396f8ad22184e57622073da859a19d496e",
+      "lib/WorldCurve.lua": "5b3e40ca07e4f84bfaabf83f22039b7cf3f165ebe143d51f929c24fdac7e3702",
+      "main.lua": "bb62f00b034d43de58838117c78b0b393bec246880574dea509fcf6dc37d4639",
+      "manifest.json": "8643e791fdd33de9809f13e84f30b89ce66392dbca5439f7cc2396220054e383"
+    }
+  },
+  {
+    "id": "erilab_bottomless_bag",
+    "version": "1.1.0",
+    "url": "https://github.com/erereck/gen1recomp-bottomless-bag/releases/download/v1.1.0/erilab_bottomless_bag.zip",
+    "sha256": "2c1c8cb45c95de75c050591ee87062170db8ee2d9456d3479757da2b5bd0ebc3",
+    "file": "erilab_bottomless_bag.zip",
+    "sources": {
+      "main.lua": "cd90315dd8585c5d37e1e953990bf738ea01d5a80ffa0473982514c4e0ccf5ef",
+      "manifest.json": "9dd952cade49d43e3e388fc87aceaeaf60faddc57e362f8386d4175bd6ea7f77"
+    }
+  }
+]

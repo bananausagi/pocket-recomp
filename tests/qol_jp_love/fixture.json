@@ -1,0 +1,52 @@
+{
+  "qol": {
+    "id": "quality_of_life",
+    "version": "1.3.0",
+    "url": "https://github.com/unxpected-uxp/pokemon-gen1-recomp-mod-qol/releases/download/v1.3.0/quality_of_life-1.3.0.zip",
+    "sha256": "adafefb6874fd4c9de97219fa1b047e287cc0ecf70ecaaa1164d39516ac247c4"
+  },
+  "catchable": {
+    "id": "all_pokemon_catchable_151_mod",
+    "version": "0.3.3-beta.1+jp.1",
+    "archive": "assets/jp-mods/all_pokemon_catchable_151_mod.zip",
+    "sha256": "4be8b82d13b6a1a7613f71ff83a7a89a09f326f9471e5cf2bce7fa6587efec95"
+  },
+  "companions": [
+    {
+      "id": "DRAMALESS_SHAPE",
+      "version": "2.0.4+jp.3",
+      "archive": "assets/jp-mods/DRAMALESS_SHAPE.zip",
+      "sha256": "f396ed7be5a172f1e389c1e8602b552372a3ac1d609a759b4c06d4a7ec04f692"
+    },
+    {
+      "id": "running_shoes",
+      "version": "1.10.0+jp.3",
+      "archive": "assets/jp-mods/running_shoes.zip",
+      "sha256": "ce07b8bc938ecba9380a6bbc22257b9dce2b75aaa1d35efc6069c0c4228e1100"
+    },
+    {
+      "id": "erilab_bottomless_bag",
+      "version": "1.1.0+jp.3",
+      "archive": "assets/jp-mods/erilab_bottomless_bag.zip",
+      "sha256": "9467d4d19e42d4c6df5bd2e7020a3915663facbef4e140a848dde7a12fdb7ee9"
+    },
+    {
+      "id": "SHINY_POKEMON",
+      "version": "1.0.8+jp.2",
+      "archive": "assets/jp-mods/SHINY_POKEMON.zip",
+      "sha256": "53c1349ce2ab93453701956ed12373d07244c454a1a6f59fa60e4c3919f9ddc9"
+    },
+    {
+      "id": "ACCESS_PC_ANYWHERE",
+      "version": "1.0.1+jp.2",
+      "archive": "assets/jp-mods/ACCESS_PC_ANYWHERE.zip",
+      "sha256": "0c977b6ff4d3ae1255b76c26d38f721ab854807fc3ecfae20f2dcaa18ecc6299"
+    },
+    {
+      "id": "CONTROLLER_RUMBLE",
+      "version": "1.0.3+jp.2",
+      "archive": "assets/jp-mods/CONTROLLER_RUMBLE.zip",
+      "sha256": "144a16bb5930da9ea801fed71111077807c13889a4292e5d8ca5bfd293b7d160"
+    }
+  ]
+}

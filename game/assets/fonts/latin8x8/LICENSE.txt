@@ -1,0 +1,4 @@
+Public Domain
+Daniel Hepper: https://github.com/dhepper/font8x8
+Based on public-domain VGA fonts by IBM and Marcel Sondaar.
+The atlas is a direct 8x8 rasterization of font8x8_basic.h.

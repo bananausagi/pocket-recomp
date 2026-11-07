@@ -1,0 +1,29 @@
+{
+  "id": "DRAMALESS_SHAPE",
+  "name": "Dramaless Shape Voxel Mod",
+  "version": "2.0.4",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": "0.0.0-dev || >=0.1.86 <2.0.0",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [
+    "STADIUM_BATTLE_FX@>=2.0.0 <3.0.0"
+  ],
+  "conflicts": [
+    "DRAMATIC_SHAPE",
+    "TERRARIUM",
+    "BATTLE_ART_VOXEL_FORK",
+    "potato_voxel",
+    "STADIUM_BATTLE_FX@<2.0.0"
+  ],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "experimental": false,
+  "description": "Voxel environments for Gen1Recomp, with standalone native-2D voxel battles and optional StadiumBattleFX providers.",
+  "github": "artyrambles/DRAMALESS_SHAPE"
+}

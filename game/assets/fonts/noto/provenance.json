@@ -1,0 +1,17 @@
+{
+  "family": "Noto Sans JP",
+  "style": "Regular",
+  "license": "SIL Open Font License 1.1",
+  "copyright": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'",
+  "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+  "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/OFL.txt",
+  "google_fonts_directory_commit": "66a36c8c94b1a5d992ee4e7f392fccfe4945767c",
+  "upstream_repository": "https://github.com/notofonts/noto-cjk",
+  "upstream_commit_from_metadata": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+  "retrieved_utc_date": "2026-09-20",
+  "source_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+  "output_sha256": "57458d02bb14502d7ae98abe1e2f79b52783ceda9e4628df145faae23a3d31d2",
+  "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+  "modification": "fontTools 4.61.1 instantiateVariableFont with wght=400 and updateFontNames=True; full cmap preserved; static TrueType output; no outline editing or subsetting; recalcTimestamp=False before saving",
+  "unicode_cmap_entries": 16732
+}

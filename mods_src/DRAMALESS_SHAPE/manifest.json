@@ -1,0 +1,33 @@
+{
+  "id": "DRAMALESS_SHAPE",
+  "name": "3D マップ",
+  "version": "2.0.28+jp.20",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": ">=0.2.66 <0.3.0",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [
+    "STADIUM_BATTLE_FX@>=2.0.0 <3.0.0"
+  ],
+  "conflicts": [
+    "DRAMATIC_SHAPE",
+    "TERRARIUM",
+    "BATTLE_ART_VOXEL_FORK",
+    "potato_voxel",
+    "STADIUM_BATTLE_FX@<2.0.0"
+  ],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "experimental": false,
+  "description": "たてものと ちけいを 3Dにする。\nせんとうの はいけいも 3Dにする。",
+  "games": [
+    "red_jp",
+    "crystal_jp"
+  ],
+  "options_schema": "options.lua"
+}

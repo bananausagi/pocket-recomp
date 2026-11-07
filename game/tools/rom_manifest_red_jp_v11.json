@@ -1,0 +1,1845 @@
+{
+  "format": "jp-rom-revision-v1",
+  "baseRomSha1": "0623ad12f48c259447980d68bd85ddbf8204b2cd",
+  "romSha1": "ef74c79cded14204ac79e77f4964d9cb25003120",
+  "romSize": 524288,
+  "revision": "1.1",
+  "symbolChanges": {
+    "ED_Tile": {
+      "from": [
+        1,
+        26359
+      ],
+      "to": [
+        1,
+        26268
+      ]
+    },
+    "TypeEffects": {
+      "from": [
+        15,
+        26454
+      ],
+      "to": [
+        15,
+        26461
+      ]
+    },
+    "TypeNames.Bird": {
+      "from": [
+        9,
+        32418
+      ],
+      "to": [
+        9,
+        32380
+      ]
+    },
+    "TypeNames.Bug": {
+      "from": [
+        9,
+        32421
+      ],
+      "to": [
+        9,
+        32383
+      ]
+    },
+    "TypeNames.Dragon": {
+      "from": [
+        9,
+        32429
+      ],
+      "to": [
+        9,
+        32391
+      ]
+    },
+    "TypeNames.Electric": {
+      "from": [
+        9,
+        32398
+      ],
+      "to": [
+        9,
+        32360
+      ]
+    },
+    "TypeNames.Fighting": {
+      "from": [
+        9,
+        32373
+      ],
+      "to": [
+        9,
+        32335
+      ]
+    },
+    "TypeNames.Fire": {
+      "from": [
+        9,
+        32386
+      ],
+      "to": [
+        9,
+        32348
+      ]
+    },
+    "TypeNames.Flying": {
+      "from": [
+        9,
+        32378
+      ],
+      "to": [
+        9,
+        32340
+      ]
+    },
+    "TypeNames.Ghost": {
+      "from": [
+        9,
+        32424
+      ],
+      "to": [
+        9,
+        32386
+      ]
+    },
+    "TypeNames.Grass": {
+      "from": [
+        9,
+        32394
+      ],
+      "to": [
+        9,
+        32356
+      ]
+    },
+    "TypeNames.Ground": {
+      "from": [
+        9,
+        32411
+      ],
+      "to": [
+        9,
+        32373
+      ]
+    },
+    "TypeNames.Ice": {
+      "from": [
+        9,
+        32407
+      ],
+      "to": [
+        9,
+        32369
+      ]
+    },
+    "TypeNames.Normal": {
+      "from": [
+        9,
+        32368
+      ],
+      "to": [
+        9,
+        32330
+      ]
+    },
+    "TypeNames.Poison": {
+      "from": [
+        9,
+        32382
+      ],
+      "to": [
+        9,
+        32344
+      ]
+    },
+    "TypeNames.Psychic": {
+      "from": [
+        9,
+        32402
+      ],
+      "to": [
+        9,
+        32364
+      ]
+    },
+    "TypeNames.Rock": {
+      "from": [
+        9,
+        32415
+      ],
+      "to": [
+        9,
+        32377
+      ]
+    },
+    "TypeNames.Water": {
+      "from": [
+        9,
+        32390
+      ],
+      "to": [
+        9,
+        32352
+      ]
+    },
+    "_AbandonLearningText": {
+      "from": [
+        1,
+        28716
+      ],
+      "to": [
+        1,
+        28625
+      ]
+    },
+    "_AlreadyAsleepText": {
+      "from": [
+        15,
+        30024
+      ],
+      "to": [
+        15,
+        30029
+      ]
+    },
+    "_AlreadyOutText": {
+      "from": [
+        15,
+        21323
+      ],
+      "to": [
+        15,
+        21318
+      ]
+    },
+    "_AttackContinuesText": {
+      "from": [
+        15,
+        23669
+      ],
+      "to": [
+        15,
+        23676
+      ]
+    },
+    "_AttackMissedText": {
+      "from": [
+        15,
+        24180
+      ],
+      "to": [
+        15,
+        24187
+      ]
+    },
+    "_BadlyPoisonedText": {
+      "from": [
+        15,
+        30195
+      ],
+      "to": [
+        15,
+        30200
+      ]
+    },
+    "_BecameConfusedText": {
+      "from": [
+        15,
+        32103
+      ],
+      "to": [
+        15,
+        32108
+      ]
+    },
+    "_BeganToNapText": {
+      "from": [
+        15,
+        24617
+      ],
+      "to": [
+        15,
+        24624
+      ]
+    },
+    "_BoulderText": {
+      "from": [
+        0,
+        3971
+      ],
+      "to": [
+        0,
+        3953
+      ]
+    },
+    "_BuildingRageText": {
+      "from": [
+        15,
+        26036
+      ],
+      "to": [
+        15,
+        26043
+      ]
+    },
+    "_BurnedText": {
+      "from": [
+        15,
+        30448
+      ],
+      "to": [
+        15,
+        30453
+      ]
+    },
+    "_ButItFailedText": {
+      "from": [
+        15,
+        32596
+      ],
+      "to": [
+        15,
+        32601
+      ]
+    },
+    "_CableClubNPCAreaReservedFor2FriendsLinkedByCableText": {
+      "from": [
+        1,
+        29790
+      ],
+      "to": [
+        1,
+        29694
+      ]
+    },
+    "_CableClubNPCLinkClosedBecauseOfInactivityText": {
+      "from": [
+        1,
+        29925
+      ],
+      "to": [
+        1,
+        29829
+      ]
+    },
+    "_CableClubNPCMakingPreparationsText": {
+      "from": [
+        1,
+        30007
+      ],
+      "to": [
+        1,
+        29911
+      ]
+    },
+    "_CableClubNPCPleaseApplyHereHaveToSaveText": {
+      "from": [
+        1,
+        29868
+      ],
+      "to": [
+        1,
+        29772
+      ]
+    },
+    "_CableClubNPCPleaseComeAgainText": {
+      "from": [
+        1,
+        29990
+      ],
+      "to": [
+        1,
+        29894
+      ]
+    },
+    "_CableClubNPCPleaseWaitText": {
+      "from": [
+        1,
+        29906
+      ],
+      "to": [
+        1,
+        29810
+      ]
+    },
+    "_CableClubNPCWelcomeText": {
+      "from": [
+        1,
+        29846
+      ],
+      "to": [
+        1,
+        29750
+      ]
+    },
+    "_CantCarryMoreText": {
+      "from": [
+        1,
+        32490
+      ],
+      "to": [
+        1,
+        32394
+      ]
+    },
+    "_CantEscapeText": {
+      "from": [
+        15,
+        19650
+      ],
+      "to": [
+        15,
+        19651
+      ]
+    },
+    "_CantMoveText": {
+      "from": [
+        15,
+        23689
+      ],
+      "to": [
+        15,
+        23696
+      ]
+    },
+    "_ChargeMoveEffectText": {
+      "from": [
+        15,
+        31807
+      ],
+      "to": [
+        15,
+        31812
+      ]
+    },
+    "_ConfusedNoMoreText": {
+      "from": [
+        15,
+        23616
+      ],
+      "to": [
+        15,
+        23623
+      ]
+    },
+    "_CriticalHitText": {
+      "from": [
+        15,
+        24301
+      ],
+      "to": [
+        15,
+        24308
+      ]
+    },
+    "_DepositHowManyText": {
+      "from": [
+        1,
+        32343
+      ],
+      "to": [
+        1,
+        32247
+      ]
+    },
+    "_DidNotLearnText": {
+      "from": [
+        1,
+        28746
+      ],
+      "to": [
+        1,
+        28655
+      ]
+    },
+    "_DidntAffectText": {
+      "from": [
+        15,
+        32620
+      ],
+      "to": [
+        15,
+        32625
+      ]
+    },
+    "_DisabledNoMoreText": {
+      "from": [
+        15,
+        23563
+      ],
+      "to": [
+        15,
+        23570
+      ]
+    },
+    "_DoYouWantToNicknameText": {
+      "from": [
+        1,
+        25829
+      ],
+      "to": [
+        1,
+        25738
+      ]
+    },
+    "_DoesntAffectMonText": {
+      "from": [
+        15,
+        24248
+      ],
+      "to": [
+        15,
+        24255
+      ]
+    },
+    "_DreamWasEatenText": {
+      "from": [
+        1,
+        31723
+      ],
+      "to": [
+        1,
+        31627
+      ]
+    },
+    "_DugAHoleText": {
+      "from": [
+        15,
+        31943
+      ],
+      "to": [
+        15,
+        31948
+      ]
+    },
+    "_EnemyMonFaintedText": {
+      "from": [
+        15,
+        18087
+      ],
+      "to": [
+        15,
+        18089
+      ]
+    },
+    "_ExclamationText": {
+      "from": [
+        0,
+        3950
+      ],
+      "to": [
+        0,
+        3932
+      ]
+    },
+    "_FastAsleepText": {
+      "from": [
+        15,
+        23461
+      ],
+      "to": [
+        15,
+        23468
+      ]
+    },
+    "_FellAsleepText": {
+      "from": [
+        15,
+        30010
+      ],
+      "to": [
+        15,
+        30015
+      ]
+    },
+    "_FellText": {
+      "from": [
+        15,
+        31188
+      ],
+      "to": [
+        15,
+        31193
+      ]
+    },
+    "_FireDefrostedText": {
+      "from": [
+        15,
+        30541
+      ],
+      "to": [
+        15,
+        30546
+      ]
+    },
+    "_FlewUpHighText": {
+      "from": [
+        15,
+        31926
+      ],
+      "to": [
+        15,
+        31931
+      ]
+    },
+    "_FlinchedText": {
+      "from": [
+        15,
+        23530
+      ],
+      "to": [
+        15,
+        23537
+      ]
+    },
+    "_FrozenText": {
+      "from": [
+        15,
+        30461
+      ],
+      "to": [
+        15,
+        30466
+      ]
+    },
+    "_FullyParalyzedText": {
+      "from": [
+        15,
+        23510
+      ],
+      "to": [
+        15,
+        23517
+      ]
+    },
+    "_GetOutText": {
+      "from": [
+        15,
+        22927
+      ],
+      "to": [
+        15,
+        22935
+      ]
+    },
+    "_GettingPumpedText": {
+      "from": [
+        9,
+        32704
+      ],
+      "to": [
+        9,
+        32666
+      ]
+    },
+    "_GotAwayText": {
+      "from": [
+        15,
+        19696
+      ],
+      "to": [
+        15,
+        19697
+      ]
+    },
+    "_GreatlyFellText": {
+      "from": [
+        15,
+        31180
+      ],
+      "to": [
+        15,
+        31185
+      ]
+    },
+    "_GreatlyRoseText": {
+      "from": [
+        15,
+        30851
+      ],
+      "to": [
+        15,
+        30856
+      ]
+    },
+    "_GroundRoseText": {
+      "from": [
+        0,
+        3953
+      ],
+      "to": [
+        0,
+        3935
+      ]
+    },
+    "_HMCantDeleteText": {
+      "from": [
+        1,
+        28929
+      ],
+      "to": [
+        1,
+        28838
+      ]
+    },
+    "_HisNameIsText": {
+      "from": [
+        1,
+        26992
+      ],
+      "to": [
+        1,
+        26901
+      ]
+    },
+    "_HitXTimesText": {
+      "from": [
+        15,
+        27497
+      ],
+      "to": [
+        15,
+        27504
+      ]
+    },
+    "_HurtByBurnText": {
+      "from": [
+        15,
+        17530
+      ],
+      "to": [
+        15,
+        17532
+      ]
+    },
+    "_HurtByLeechSeedText": {
+      "from": [
+        15,
+        17552
+      ],
+      "to": [
+        15,
+        17554
+      ]
+    },
+    "_HurtByPoisonText": {
+      "from": [
+        15,
+        17509
+      ],
+      "to": [
+        15,
+        17511
+      ]
+    },
+    "_HurtItselfText": {
+      "from": [
+        15,
+        23593
+      ],
+      "to": [
+        15,
+        23600
+      ]
+    },
+    "_IgnoredOrdersText": {
+      "from": [
+        15,
+        24665
+      ],
+      "to": [
+        15,
+        24672
+      ]
+    },
+    "_IntroducePlayerText": {
+      "from": [
+        1,
+        24931
+      ],
+      "to": [
+        1,
+        24840
+      ]
+    },
+    "_IntroduceRivalText": {
+      "from": [
+        1,
+        24960
+      ],
+      "to": [
+        1,
+        24869
+      ]
+    },
+    "_IsConfusedText": {
+      "from": [
+        15,
+        23579
+      ],
+      "to": [
+        15,
+        23586
+      ]
+    },
+    "_IsFrozenText": {
+      "from": [
+        15,
+        23489
+      ],
+      "to": [
+        15,
+        23496
+      ]
+    },
+    "_IsUnaffectedText": {
+      "from": [
+        15,
+        32637
+      ],
+      "to": [
+        15,
+        32642
+      ]
+    },
+    "_ItemWasStoredText": {
+      "from": [
+        1,
+        32356
+      ],
+      "to": [
+        1,
+        32260
+      ]
+    },
+    "_ItemsCantBeUsedHereText": {
+      "from": [
+        15,
+        21001
+      ],
+      "to": [
+        15,
+        20998
+      ]
+    },
+    "_KeptGoingAndCrashedText": {
+      "from": [
+        15,
+        24200
+      ],
+      "to": [
+        15,
+        24207
+      ]
+    },
+    "_LearnedMove1Text": {
+      "from": [
+        1,
+        28671
+      ],
+      "to": [
+        1,
+        28580
+      ]
+    },
+    "_LinkBattleLostText": {
+      "from": [
+        15,
+        18795
+      ],
+      "to": [
+        15,
+        18796
+      ]
+    },
+    "_LinkCanceledText": {
+      "from": [
+        1,
+        23446
+      ],
+      "to": [
+        1,
+        23355
+      ]
+    },
+    "_LoafingAroundText": {
+      "from": [
+        15,
+        24604
+      ],
+      "to": [
+        15,
+        24611
+      ]
+    },
+    "_LoweredItsHeadText": {
+      "from": [
+        15,
+        31894
+      ],
+      "to": [
+        15,
+        31899
+      ]
+    },
+    "_MadeWhirlwindText": {
+      "from": [
+        15,
+        31855
+      ],
+      "to": [
+        15,
+        31860
+      ]
+    },
+    "_MartSignText": {
+      "from": [
+        0,
+        3990
+      ],
+      "to": [
+        0,
+        3972
+      ]
+    },
+    "_MimicLearnedMoveText": {
+      "from": [
+        15,
+        32324
+      ],
+      "to": [
+        15,
+        32329
+      ]
+    },
+    "_MirrorMoveFailedText": {
+      "from": [
+        15,
+        26099
+      ],
+      "to": [
+        15,
+        26106
+      ]
+    },
+    "_MoneyForWinningText": {
+      "from": [
+        15,
+        18266
+      ],
+      "to": [
+        15,
+        18268
+      ]
+    },
+    "_MonsStatsFellText": {
+      "from": [
+        15,
+        31144
+      ],
+      "to": [
+        15,
+        31149
+      ]
+    },
+    "_MonsStatsRoseText": {
+      "from": [
+        15,
+        30818
+      ],
+      "to": [
+        15,
+        30823
+      ]
+    },
+    "_MoveDisabledText": {
+      "from": [
+        15,
+        21727
+      ],
+      "to": [
+        15,
+        21722
+      ]
+    },
+    "_MoveIsDisabledText": {
+      "from": [
+        15,
+        23737
+      ],
+      "to": [
+        15,
+        23744
+      ]
+    },
+    "_MoveNoPPText": {
+      "from": [
+        15,
+        21709
+      ],
+      "to": [
+        15,
+        21704
+      ]
+    },
+    "_MoveWasDisabledText": {
+      "from": [
+        15,
+        32482
+      ],
+      "to": [
+        15,
+        32487
+      ]
+    },
+    "_MultiHitText": {
+      "from": [
+        15,
+        22837
+      ],
+      "to": [
+        15,
+        22845
+      ]
+    },
+    "_MustRechargeText": {
+      "from": [
+        15,
+        23540
+      ],
+      "to": [
+        15,
+        23547
+      ]
+    },
+    "_NeedYourPokemonText": {
+      "from": [
+        1,
+        29146
+      ],
+      "to": [
+        1,
+        29055
+      ]
+    },
+    "_NoEffectText": {
+      "from": [
+        15,
+        32571
+      ],
+      "to": [
+        15,
+        32576
+      ]
+    },
+    "_NoMovesLeftText": {
+      "from": [
+        15,
+        21857
+      ],
+      "to": [
+        15,
+        21852
+      ]
+    },
+    "_NoRoomToStoreText": {
+      "from": [
+        1,
+        32399
+      ],
+      "to": [
+        1,
+        32303
+      ]
+    },
+    "_NoRunningText": {
+      "from": [
+        15,
+        19659
+      ],
+      "to": [
+        15,
+        19660
+      ]
+    },
+    "_NoWillText": {
+      "from": [
+        15,
+        19412
+      ],
+      "to": [
+        15,
+        19413
+      ]
+    },
+    "_NothingHappenedText": {
+      "from": [
+        15,
+        32549
+      ],
+      "to": [
+        15,
+        32554
+      ]
+    },
+    "_NothingStoredText": {
+      "from": [
+        1,
+        32475
+      ],
+      "to": [
+        1,
+        32379
+      ]
+    },
+    "_NothingToDepositText": {
+      "from": [
+        1,
+        32377
+      ],
+      "to": [
+        1,
+        32281
+      ]
+    },
+    "_OHKOText": {
+      "from": [
+        15,
+        24315
+      ],
+      "to": [
+        15,
+        24322
+      ]
+    },
+    "_OakSpeechText1": {
+      "from": [
+        1,
+        24727
+      ],
+      "to": [
+        1,
+        24636
+      ]
+    },
+    "_OakSpeechText2A": {
+      "from": [
+        1,
+        24798
+      ],
+      "to": [
+        1,
+        24707
+      ]
+    },
+    "_OakSpeechText2B": {
+      "from": [
+        1,
+        24798
+      ],
+      "to": [
+        1,
+        24707
+      ]
+    },
+    "_OakSpeechText3": {
+      "from": [
+        1,
+        25021
+      ],
+      "to": [
+        1,
+        24930
+      ]
+    },
+    "_OneTwoAndText": {
+      "from": [
+        1,
+        28862
+      ],
+      "to": [
+        1,
+        28771
+      ]
+    },
+    "_ParalyzedMayNotAttackText": {
+      "from": [
+        15,
+        32662
+      ],
+      "to": [
+        15,
+        32667
+      ]
+    },
+    "_PlayerBlackedOutText": {
+      "from": [
+        0,
+        5529
+      ],
+      "to": [
+        0,
+        5511
+      ]
+    },
+    "_PlayerBlackedOutText2": {
+      "from": [
+        15,
+        18751
+      ],
+      "to": [
+        15,
+        18752
+      ]
+    },
+    "_PlayerMonFaintedText": {
+      "from": [
+        15,
+        18480
+      ],
+      "to": [
+        15,
+        18482
+      ]
+    },
+    "_PleaseWaitText": {
+      "from": [
+        1,
+        23423
+      ],
+      "to": [
+        1,
+        23332
+      ]
+    },
+    "_PoisonedText": {
+      "from": [
+        15,
+        30183
+      ],
+      "to": [
+        15,
+        30188
+      ]
+    },
+    "_PokeCenterSignText": {
+      "from": [
+        0,
+        4015
+      ],
+      "to": [
+        0,
+        3997
+      ]
+    },
+    "_PokemartAnythingElseText": {
+      "from": [
+        1,
+        28302
+      ],
+      "to": [
+        1,
+        28211
+      ]
+    },
+    "_PokemartBoughtItemText": {
+      "from": [
+        1,
+        28107
+      ],
+      "to": [
+        1,
+        28016
+      ]
+    },
+    "_PokemartBuyingGreetingText": {
+      "from": [
+        1,
+        28064
+      ],
+      "to": [
+        1,
+        27973
+      ]
+    },
+    "_PokemartGreetingText": {
+      "from": [
+        0,
+        5415
+      ],
+      "to": [
+        0,
+        5397
+      ]
+    },
+    "_PokemartItemBagEmptyText": {
+      "from": [
+        1,
+        28230
+      ],
+      "to": [
+        1,
+        28139
+      ]
+    },
+    "_PokemartItemBagFullText": {
+      "from": [
+        1,
+        28147
+      ],
+      "to": [
+        1,
+        28056
+      ]
+    },
+    "_PokemartNotEnoughMoneyText": {
+      "from": [
+        1,
+        28131
+      ],
+      "to": [
+        1,
+        28040
+      ]
+    },
+    "_PokemartTellBuyPriceText": {
+      "from": [
+        1,
+        28083
+      ],
+      "to": [
+        1,
+        27992
+      ]
+    },
+    "_PokemartTellSellPriceText": {
+      "from": [
+        1,
+        28199
+      ],
+      "to": [
+        1,
+        28108
+      ]
+    },
+    "_PokemartThankYouText": {
+      "from": [
+        1,
+        28288
+      ],
+      "to": [
+        1,
+        28197
+      ]
+    },
+    "_PokemartUnsellableItemText": {
+      "from": [
+        1,
+        28255
+      ],
+      "to": [
+        1,
+        28164
+      ]
+    },
+    "_PokemonCenterFarewellText": {
+      "from": [
+        1,
+        29208
+      ],
+      "to": [
+        1,
+        29117
+      ]
+    },
+    "_PokemonCenterWelcomeText": {
+      "from": [
+        1,
+        29080
+      ],
+      "to": [
+        1,
+        28989
+      ]
+    },
+    "_PokemonFaintedText": {
+      "from": [
+        0,
+        5507
+      ],
+      "to": [
+        0,
+        5489
+      ]
+    },
+    "_PokemonFightingFitText": {
+      "from": [
+        1,
+        29167
+      ],
+      "to": [
+        1,
+        29076
+      ]
+    },
+    "_PokemonSellingGreetingText": {
+      "from": [
+        1,
+        28182
+      ],
+      "to": [
+        1,
+        28091
+      ]
+    },
+    "_PoofText": {
+      "from": [
+        1,
+        28881
+      ],
+      "to": [
+        1,
+        28790
+      ]
+    },
+    "_RanAwayScaredText": {
+      "from": [
+        15,
+        31593
+      ],
+      "to": [
+        15,
+        31598
+      ]
+    },
+    "_RanFromBattleText": {
+      "from": [
+        15,
+        31575
+      ],
+      "to": [
+        15,
+        31580
+      ]
+    },
+    "_RepelWoreOffText": {
+      "from": [
+        0,
+        5583
+      ],
+      "to": [
+        0,
+        5565
+      ]
+    },
+    "_Rival1WinText": {
+      "from": [
+        15,
+        18728
+      ],
+      "to": [
+        15,
+        18729
+      ]
+    },
+    "_RoseText": {
+      "from": [
+        15,
+        30859
+      ],
+      "to": [
+        15,
+        30864
+      ]
+    },
+    "_SafariZoneAngryText": {
+      "from": [
+        1,
+        30297
+      ],
+      "to": [
+        1,
+        30201
+      ]
+    },
+    "_SafariZoneEatingText": {
+      "from": [
+        1,
+        30275
+      ],
+      "to": [
+        1,
+        30179
+      ]
+    },
+    "_SavingEnergyText": {
+      "from": [
+        15,
+        23631
+      ],
+      "to": [
+        15,
+        23638
+      ]
+    },
+    "_ScaredText": {
+      "from": [
+        15,
+        22896
+      ],
+      "to": [
+        15,
+        22904
+      ]
+    },
+    "_ShallWeHealYourPokemonText": {
+      "from": [
+        1,
+        29120
+      ],
+      "to": [
+        1,
+        29029
+      ]
+    },
+    "_SkyAttackGlowingText": {
+      "from": [
+        15,
+        31908
+      ],
+      "to": [
+        15,
+        31913
+      ]
+    },
+    "_SubstituteBrokeText": {
+      "from": [
+        15,
+        25951
+      ],
+      "to": [
+        15,
+        25958
+      ]
+    },
+    "_SubstituteTookDamageText": {
+      "from": [
+        15,
+        25925
+      ],
+      "to": [
+        15,
+        25932
+      ]
+    },
+    "_SuckedHealthText": {
+      "from": [
+        1,
+        31704
+      ],
+      "to": [
+        1,
+        31608
+      ]
+    },
+    "_ThrashingAboutText": {
+      "from": [
+        15,
+        23658
+      ],
+      "to": [
+        15,
+        23665
+      ]
+    },
+    "_TookInSunlightText": {
+      "from": [
+        15,
+        31876
+      ],
+      "to": [
+        15,
+        31881
+      ]
+    },
+    "_TossHowManyText": {
+      "from": [
+        1,
+        32525
+      ],
+      "to": [
+        1,
+        32429
+      ]
+    },
+    "_TrainerAboutToUseText": {
+      "from": [
+        15,
+        19300
+      ],
+      "to": [
+        15,
+        19301
+      ]
+    },
+    "_TrainerDefeatedText": {
+      "from": [
+        15,
+        18294
+      ],
+      "to": [
+        15,
+        18296
+      ]
+    },
+    "_TrainerNameText": {
+      "from": [
+        0,
+        13335
+      ],
+      "to": [
+        0,
+        13317
+      ]
+    },
+    "_TrainerSentOutText": {
+      "from": [
+        15,
+        19343
+      ],
+      "to": [
+        15,
+        19344
+      ]
+    },
+    "_TryingToLearnText": {
+      "from": [
+        1,
+        28771
+      ],
+      "to": [
+        1,
+        28680
+      ]
+    },
+    "_TurnedAwayText": {
+      "from": [
+        15,
+        24650
+      ],
+      "to": [
+        15,
+        24657
+      ]
+    },
+    "_TurnedOnPC2Text": {
+      "from": [
+        1,
+        32301
+      ],
+      "to": [
+        1,
+        32205
+      ]
+    },
+    "_UnaffectedText": {
+      "from": [
+        15,
+        24226
+      ],
+      "to": [
+        15,
+        24233
+      ]
+    },
+    "_UnleashedEnergyText": {
+      "from": [
+        15,
+        23643
+      ],
+      "to": [
+        15,
+        23650
+      ]
+    },
+    "_UseNextMonText": {
+      "from": [
+        15,
+        18548
+      ],
+      "to": [
+        15,
+        18550
+      ]
+    },
+    "_WasBlownAwayText": {
+      "from": [
+        15,
+        31611
+      ],
+      "to": [
+        15,
+        31616
+      ]
+    },
+    "_WhatDoYouWantText": {
+      "from": [
+        1,
+        32319
+      ],
+      "to": [
+        1,
+        32223
+      ]
+    },
+    "_WhatToDepositText": {
+      "from": [
+        1,
+        32330
+      ],
+      "to": [
+        1,
+        32234
+      ]
+    },
+    "_WhatToTossText": {
+      "from": [
+        1,
+        32513
+      ],
+      "to": [
+        1,
+        32417
+      ]
+    },
+    "_WhatToWithdrawText": {
+      "from": [
+        1,
+        32425
+      ],
+      "to": [
+        1,
+        32329
+      ]
+    },
+    "_WhereWouldYouLikeText": {
+      "from": [
+        1,
+        23406
+      ],
+      "to": [
+        1,
+        23315
+      ]
+    },
+    "_WhichMoveToForgetText": {
+      "from": [
+        1,
+        28699
+      ],
+      "to": [
+        1,
+        28608
+      ]
+    },
+    "_WillBeTradedText": {
+      "from": [
+        1,
+        22601
+      ],
+      "to": [
+        1,
+        22510
+      ]
+    },
+    "_WithdrawHowManyText": {
+      "from": [
+        1,
+        32439
+      ],
+      "to": [
+        1,
+        32343
+      ]
+    },
+    "_WithdrewItemText": {
+      "from": [
+        1,
+        32453
+      ],
+      "to": [
+        1,
+        32357
+      ]
+    },
+    "_WokeUpText": {
+      "from": [
+        15,
+        23477
+      ],
+      "to": [
+        15,
+        23484
+      ]
+    },
+    "_WontObeyText": {
+      "from": [
+        15,
+        24633
+      ],
+      "to": [
+        15,
+        24640
+      ]
+    },
+    "_YourNameIsText": {
+      "from": [
+        1,
+        26907
+      ],
+      "to": [
+        1,
+        26816
+      ]
+    },
+    "DefaultNamesPlayerList": {
+      "from": [
+        1,
+        27281
+      ],
+      "to": [
+        1,
+        27190
+      ]
+    },
+    "DefaultNamesRivalList": {
+      "from": [
+        1,
+        27302
+      ],
+      "to": [
+        1,
+        27211
+      ]
+    }
+  },
+  "textLengthChanges": {
+    "_GettingPumpedText": {
+      "from": 64,
+      "to": 102
+    }
+  },
+  "provenance": {
+    "repository": "https://github.com/Narishma-gb/pokegreen",
+    "sourceRevision": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+    "symbolRevision": "bcb11e981bfc46428b388a42be249bcf547b1c93",
+    "baseSymbolsSha256": "1ab7859695276770603290011c732e7b3495501e40272ae030f8c5df91e38cc5",
+    "revisionSymbolsSha256": "8d18f3ad76641c47f8320dea8d472037d8d168f7203b96a5b99b3202d8c1d9f2",
+    "symbolsChecked": 3268,
+    "textSpansChecked": 2423,
+    "inlineAddressesChecked": 252
+  }
+}

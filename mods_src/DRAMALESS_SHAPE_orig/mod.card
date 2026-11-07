@@ -1,0 +1,28 @@
+return {
+  summary = "Voxel environments with standalone native-2D voxel battles and optional arena/card providers for StadiumBattleFX 2.x.",
+  author = "Stahltier",
+  contact = "https://github.com/artyrambles/DRAMALESS_SHAPE",
+  tags = { "graphics", "3d", "voxel", "render-pipeline", "environment" },
+  differences = {
+    changed = {
+      "renders the overworld as depth-buffered voxel geometry",
+      "keeps voxel lighting, water, shadows, camera modes, tilt shift, and performance controls",
+      "works standalone with native 2D battle cards staged on voxel maps",
+      "registers independent voxel-map arena and native-card providers with StadiumBattleFX API 1",
+      "removes Stadium models, replacement sprites, animation, HUD, disc-stage, Horde, and VR ownership",
+      "exports bounded structured diagnostics on Windows, Linux/SteamOS, and macOS",
+    },
+    known = {
+      "requires shader and depth-canvas support; unsupported systems fall back to the engine renderer",
+      "voxel-map battles require a suitable authored or generic map location",
+      "this 2.0 release is experimental; Dramaless 1.6.4 remains the legacy LTS line",
+    },
+  },
+  credits = {
+    { who = "DramaticShape", for_ = "Dramatic Shape Voxel Mod foundation" },
+    { who = "Stahltier (artyrambles)", for_ = "Dramaless fixes, additions, and 2.0 extraction" },
+    { who = "BrenoBertucci", for_ = "MIT-licensed Terrarium performance work" },
+    { who = "anxiousintrovert", for_ = "StadiumBattleFX API and integration contract" },
+  },
+  compat = { engine = "0.0.0-dev || >=0.1.87 <2.0.0", modApi = 2 },
+}

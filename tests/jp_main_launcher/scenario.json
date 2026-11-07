@@ -1,0 +1,186 @@
+{
+  "phases": [
+    {
+      "name": "01-home",
+      "page": "games"
+    },
+    {
+      "name": "02-mods",
+      "page": "mods",
+      "actions": [
+        {
+          "click": {
+            "id": "home-mods"
+          },
+          "touch": true
+        }
+      ],
+      "check": "return #imp.mods==7"
+    },
+    {
+      "name": "03-settings",
+      "page": "settings",
+      "actions": [
+        {
+          "key": "acback"
+        },
+        {
+          "click": {
+            "id": "home-settings"
+          },
+          "touch": true
+        }
+      ]
+    },
+    {
+      "name": "04-audio",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "click": {
+            "id": "settings-section-1"
+          },
+          "touch": true
+        }
+      ]
+    },
+    {
+      "name": "05-volume",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "left"
+        }
+      ],
+      "check": "return imp._settings.opts.musicVol==6 and require('src.core.SaveData').loadOptions().musicVol==6"
+    },
+    {
+      "name": "06-display",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "acback"
+        },
+        {
+          "click": {
+            "id": "settings-section-2"
+          },
+          "touch": true
+        }
+      ]
+    },
+    {
+      "name": "07-windows",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "down"
+        },
+        {
+          "key": "down"
+        },
+        {
+          "key": "left"
+        }
+      ],
+      "check": "return imp._settings.opts.jpDialogScale==0.75 and require('src.core.SaveData').loadOptions().jpDialogScale==0.75"
+    },
+    {
+      "name": "08-colors-preserved",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "right"
+        }
+      ],
+      "check": "return imp._settings.opts.jpDialogScale==1 and imp._settings.opts.jpColorDefaultsV8==nil"
+    },
+    {
+      "name": "09-files",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "acback"
+        },
+        {
+          "click": {
+            "id": "settings-section-6"
+          },
+          "touch": true
+        }
+      ]
+    },
+    {
+      "name": "10-export",
+      "page": "message",
+      "actions": [
+        {
+          "click": {
+            "id": "setting-6-1"
+          },
+          "touch": true
+        }
+      ],
+      "check": "local j=love.filesystem.read('exports/kanto-player-settings.json'); local v=require('src.import.SettingsTransfer').import(j,{}); return v and v.musicVol==6 and v.jpDialogScale==1"
+    },
+    {
+      "name": "11-import-picker",
+      "page": "settings-detail",
+      "actions": [
+        {
+          "key": "acback"
+        },
+        {
+          "lua": "local sys=love.system; _G.qaOldOS=sys.getOS; sys.getOS=function()return 'Android'end; sys.pickFile=function(kind,path) assert(kind=='required_import' and path=='picked_settings.json'); _G.qaPick=true; return true end"
+        },
+        {
+          "click": {
+            "id": "setting-6-2"
+          },
+          "touch": true
+        }
+      ],
+      "check": "return _G.qaPick and require('src.import.SettingsFiles').pending()"
+    },
+    {
+      "name": "12-import-complete",
+      "page": "message",
+      "actions": [
+        {
+          "lua": "local s=require('src.core.SaveData').loadOptions(); s.musicVol=3;s.jpDialogScale=0.5;s.modOptions=s.modOptions or {};s.modOptions.DRAMALESS_SHAPE={daytime='dusk'};local j=assert(require('src.import.SettingsTransfer').export(s));love.focus(false); assert(love.filesystem.write('picked_settings.json',j));love.focus(true);love.system.getOS=_G.qaOldOS"
+        }
+      ],
+      "check": "local s=require('src.core.SaveData').loadOptions(); return s.musicVol==3 and s.jpDialogScale==0.5 and s.modOptions.DRAMALESS_SHAPE.daytime=='dusk' and not require('src.import.SettingsFiles').pending()"
+    },
+    {
+      "name": "13-return-home",
+      "page": "games",
+      "actions": [
+        {
+          "key": "acback"
+        },
+        {
+          "key": "acback"
+        }
+      ]
+    },
+    {
+      "name": "14-information",
+      "page": "about",
+      "actions": [
+        {
+          "click": {
+            "id": "home-more"
+          },
+          "touch": true
+        },
+        {
+          "click": {
+            "id": "home-about"
+          },
+          "touch": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+build/
+PocketRecomp-personal.apk
+__pycache__/
+*.pyc

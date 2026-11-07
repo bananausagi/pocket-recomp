@@ -1,0 +1,44 @@
+[
+  {
+    "id": "DRAMALESS_SHAPE",
+    "version": "2.0.28+jp.20",
+    "archive": "assets/jp-mods/DRAMALESS_SHAPE.zip",
+    "sha256": "1a037bacf0e86ea5cda431359b03260f42aed7afe920a75fce2383feeedf980f"
+  },
+  {
+    "id": "running_shoes",
+    "version": "1.10.0+jp.5",
+    "archive": "assets/jp-mods/running_shoes.zip",
+    "sha256": "ea122328a80675a2cc674f1cef5f7201b1368d90daa9c9ffcf41ead650e59b4d"
+  },
+  {
+    "id": "erilab_bottomless_bag",
+    "version": "1.1.0+jp.4",
+    "archive": "assets/jp-mods/erilab_bottomless_bag.zip",
+    "sha256": "b6c24c6d783f7c2aa39ccc756ec92a036a1dad30ccdc411c8e809eff30cb517d"
+  },
+  {
+    "id": "SHINY_POKEMON",
+    "version": "1.0.8+jp.2",
+    "archive": "assets/jp-mods/SHINY_POKEMON.zip",
+    "sha256": "53c1349ce2ab93453701956ed12373d07244c454a1a6f59fa60e4c3919f9ddc9"
+  },
+  {
+    "id": "ACCESS_PC_ANYWHERE",
+    "version": "1.0.1+jp.3",
+    "archive": "assets/jp-mods/ACCESS_PC_ANYWHERE.zip",
+    "sha256": "0f38a8507ff5000a46a7a5e2d8c273a11bccd47b52a5049b52eba5d2725add0c"
+  },
+  {
+    "id": "CONTROLLER_RUMBLE",
+    "version": "1.0.3+jp.3",
+    "archive": "assets/jp-mods/CONTROLLER_RUMBLE.zip",
+    "sha256": "18acbf5782cddd0e84ae45dea9d08e47f67f777eb4ce1d9660d1832baa396874"
+  },
+  {
+    "id": "all_pokemon_catchable_151_mod",
+    "version": "0.3.3-beta.1+jp.1",
+    "archive": "assets/jp-mods/all_pokemon_catchable_151_mod.zip",
+    "sha256": "4be8b82d13b6a1a7613f71ff83a7a89a09f326f9471e5cf2bce7fa6587efec95"
+  }
+]

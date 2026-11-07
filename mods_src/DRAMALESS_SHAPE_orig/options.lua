@@ -1,0 +1,21 @@
+-- Data-only launcher schema; parity with mod.options:define verified by QA.
+return {
+  { choices = {{"ORIGINAL", 1}, {"TALL", 1.4}}, default = 1.4, help = "Compact houses can be taller without changing doors or walkable ground.", key = "buildingHeight", label = "HOUSE HEIGHT", type = "choice" },
+  { choices = {{"COMPACT", 4}, {"DEEP", 12}, {"WIDE", 20}}, default = 12, help = "Extend outer forests with cheaper distant hulls.", key = "borderDepth", label = "OUTER SCENERY", type = "choice" },
+  { default = true, help = "Fade distant scenery across connected outdoor areas without darkening the screen.", key = "sceneryFade", label = "SCENERY FADE", type = "toggle" },
+  { choices = {{"CLEAR", "clear"}, {"AUTO", "auto"}, {"RAIN", "rain"}, {"SNOW", "snow"}, {"FOG", "fog"}, {"STORM", "storm"}}, default = "auto", help = "Outdoor weather only. CLEAR disables it; AUTO shares a gradually changing weather front across routes.", key = "weather", label = "WEATHER", type = "choice" },
+  { choices = {{"GENTLE", .55}, {"NORMAL", 1}, {"STRONG", 1.45}}, default = 1, help = "Density of rain, snow and distant mist.", key = "weatherStrength", label = "WEATHER STRENGTH", type = "choice" },
+  { default = true, help = "Soft distant lightning during storms. OFF keeps rain without flashes.", key = "weatherLightning", label = "LIGHTNING", type = "toggle" },
+  { default = false, help = "One-pixel wireframe along every voxel edge.", key = "grid", label = "V-GRID", type = "toggle" },
+  { choices = {{"OFF", 0}, {"1", 1}, {"2", 2}, {"3", 3}}, default = 0, help = "Bend the world down over the horizon.", key = "curve", label = "V-CURVE", type = "choice" },
+  { choices = {{"SYNC", "sync"}, {"DAY", "day"}, {"NIGHT", "night"}, {"DUSK", "dusk"}, {"DAWN", "dawn"}, {"CYCLE", "cycle"}}, default = "sync", help = "Choose DAY, NIGHT, DUSK, DAWN, CYCLE, or clock-synced lighting.", key = "daytime", label = "DAYTIME", type = "choice" },
+  { choices = {{"FULL", "full"}, {"SKY", "sky"}, {"OFF", "off"}}, default = "full", help = "Reflections on water: FULL, SKY, or OFF.", key = "water", label = "WATER", type = "choice" },
+  { choices = {{"ON", "high"}, {"OFF", "off"}}, default = "high", help = "Enable voxel-world cast shadows.", key = "shadowQuality", label = "SHADOWS", type = "choice" },
+  { choices = {{"OFF", 0}, {"2X", 2}, {"4X", 4}}, default = 0, help = "Supersample the voxel world for smoother geometry edges.", key = "aa", label = "AA", type = "choice" },
+  { choices = {{"1/2", 2}, {"FULL", 1}, {"1/3", 3}, {"1/4", 4}}, default = 2, help = "Choose the voxel render resolution scale.", key = "renderScale", label = "RES", type = "choice" },
+  { choices = {{"SHORT", 16}, {"FULL", -1}, {"MEDIUM", 32}, {"FAR", 64}}, default = 16, help = "Choose the render distance.", key = "renderDistanceSetting", label = "R.DIST", type = "choice" },
+  { default = false, help = "Keep your own Pokemon on the battle menu, seen from behind in its original slot, while the foe remains a world card.", key = "battleBack", label = "BACK SPRITES", type = "toggle" },
+  { choices = {{"ON", true}, {"OFF", false}}, default = true, help = "Draw silhouettes for characters hidden behind voxel geometry. OFF disables the silhouette pass completely.", key = "silhouettes", label = "SILHOUETTES", type = "choice" },
+  { default = false, help = "Invert the right stick's up/down look in 1ST: pull back to look up, push forward to look down.", key = "INVERT_LOOK_Y", label = "INVERT Y", type = "toggle" },
+  { default = true, help = "Use a fully 3D voxel-map arena with native Gen 1 2D battle cards when StadiumBattleFX is absent.", key = "voxel_2d_battles", label = "VOXEL ARENA + 2D CARDS", type = "toggle" },
+}

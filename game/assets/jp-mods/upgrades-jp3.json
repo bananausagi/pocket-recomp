@@ -1,0 +1,137 @@
+{
+  "ACCESS_PC_ANYWHERE": {
+    "version": "1.0.1+jp.1",
+    "files": {
+      "JP-ADAPTATION.md": "00b57b74d081b7708943bb4512872841fc8954b7ba656eecc2c3128e0e0400a7",
+      "LICENSE": "019c44ddb90a35182f00c60a982486f18f74b93f60d799bf1e6b6f46347f8ac6",
+      "README.md": "b6e19202dc07d26420567d0552083d4a8019a2440a18e9267102907c2bc11d25",
+      "main.lua": "72598c6255bd3e2125b8d868b671ab62245f25d1f833f7e614ded8ffbb6729a2",
+      "manifest.json": "d3f31bb69fe8acd16c03145f5ca57dd8f0dc0940b33b1b92f3ac3ba3addcd438",
+      "manifest.upstream.json": "86646c8ec6340d16c557599d9ccb8125219f26bc5f27ffbfa7801e4b6054235c"
+    }
+  },
+  "CONTROLLER_RUMBLE": {
+    "version": "1.0.3+jp.1",
+    "files": {
+      "JP-ADAPTATION.md": "36ba0783b86d06026711734689ac741c62f4e78b77d3df2aa8b4ad8abea18e9b",
+      "LICENSE": "019c44ddb90a35182f00c60a982486f18f74b93f60d799bf1e6b6f46347f8ac6",
+      "README.md": "937043f4d0c23239ef5d860a293627363d51626e585690ac47b1cd9134d5a663",
+      "lib/ExtraEvents.lua": "2267d4dd5591a1b3db47c4a2b879bbfeaff84b6041573836aadf8f3e0500574f",
+      "lib/Extras.lua": "a9ad982de56a504c0b6246f5388f554a495d307528d1828a7064c4ab2562413c",
+      "lib/HpRumble.lua": "d4c6cde4ee5414fe5a14570d72841884ff6c72a138c77dff46370266cd4e772a",
+      "lib/MenuRumble.lua": "6791c9b63c4d81fbf632d7af0436ef11dd3e32440c6ab790305c6a3b9003d56e",
+      "lib/OptionsScreen.lua": "ef69a60a1ddac03f84e00dd205a3b50ec7423d5d839827d936132345d4002d6d",
+      "lib/Rumble.lua": "24ee06f5e5c75ce76a3c44eda2952e674d61f37a360c464578e44475a75cdbca",
+      "lib/Settings.lua": "8f433b7410fc11eb32010a894b8f4db4f2324f64b7fc12dc0a42b8fe28a23908",
+      "lib/ShakeSync.lua": "bb2f7d8b08512d0d45d233b59afae94d78106987287de52624a9b6e26273d4cb",
+      "main.lua": "076ef49652112b76290718d0da1f77b798f487f2e9fdbedcf0f5869784b0efc6",
+      "manifest.json": "8dcb95f47cd0225195f6a6e954a767c06e7f821b338353fdcfa2fee156ed0e69",
+      "manifest.upstream.json": "3c2d078b53fb4e29de5ae93cce728ca9608233a7ccba9c4bda0d56efbfd18b96"
+    }
+  },
+  "DRAMALESS_SHAPE": {
+    "version": "2.0.4+jp.2",
+    "files": {
+      ".gitignore": "9afabeb7c6e6adc26348d7e6a6df6722a612e1f1ecf896bd1151ceb3441a3c1b",
+      "CHANGELOG.md": "6e4c8123bf5a193125e1adc665ec3b795facad463abea744008122df723b8f29",
+      "CREDITS.md": "d7c671295e079f9aa95faf1891a01a0d24073d66c6ac16d5207a8c571213a503",
+      "JP-ADAPTATION.md": "b0d5130e6284dd3beae08461934d9245b0648ec11e9dde63473b1e51175430af",
+      "LICENSE": "0a381326da55388730d2f579745cd001be1e31d77fc3fd50105fcd769ee3f0fe",
+      "README.md": "0426401974f1a56a22168446206425a2e1a11c19690ed2da735c2ae14a368164",
+      "data/battle_arenas.lua": "b94c2f2df11baff890869cf9a5528632e28dd291c994933eac3824785d6c9ecc",
+      "data/voxel_heights.lua": "e92da4ab452018da7598610a64fe9ac69790bde1da255dcdad4001304d7ae39b",
+      "lib/AntiAlias.lua": "506c914c8b44ea601170f2695f7754c40e95162afc514e316bc6ac5b650bae30",
+      "lib/BattleArena.lua": "bc99db0d7c6ad0d225d6fa66a73aa4c80b7ba4089a432eca517706527e6bf7f0",
+      "lib/BattleBillboard.lua": "4647998a42e0d7f27ef2aabe98dd4f56a3580befee9cc84c1f2ee34c2accbcce",
+      "lib/BattleCam.lua": "e1aa99414f7d869789acdcd1341200e821121772408b7dac275532c9f994187a",
+      "lib/BattlePics.lua": "c859e04da3002815db90ac987c64c860b63fdf06ab81d0a3d1e44c11b9a65953",
+      "lib/BuildBudget.lua": "c33857dcd8eaee68721ec75a94edb633a9fecddf1bc5b8915ec9b659d017bb96",
+      "lib/Buildings.lua": "f9f929fbddc976268a8c606d2b60336e2eb5cb72da99632d1e35919bbca8dba6",
+      "lib/CamControl.lua": "0be3e939fb48839875c70f42b051dd058b5859d0656d84a71f8b1667e832fc85",
+      "lib/ChunkMesher.lua": "cc2dbb5afeb2451560d4e2731e96d2c8e4d7dacf5ff641973b80868761e9d515",
+      "lib/DayNight.lua": "2b39f071f2c0c521b4c09eeb2b1e92006fad71b3a67ce269c13563a5b54be620",
+      "lib/DayTint.lua": "f25109f9cebbea756dc74eae797f993ad45c3198db9a0974ce0aa11f820a779c",
+      "lib/DramalessLog.lua": "e60df8bba0c4acdbda0f72961b7e71fa132c1c31590eefe4b3b748cd6d9e78c3",
+      "lib/DramalessLogExport.lua": "15f8da1bea919a283e453eb33be5b831c2e0fdbc0f72010d6c82de7156467600",
+      "lib/FirstPerson.lua": "afeb051f52b6302068ec123f1e4c011045d0776eb6f5e8785d317280242481db",
+      "lib/FreeMove.lua": "d6ff3d8a1370c047756a4919c539b09d9975afbd2d52b19f7e384f9d6ba17f60",
+      "lib/GlassMask.lua": "242327056d1b09d28278588f6b8c712f665ac57c38a5b4fb4320903310d98778",
+      "lib/MapGrids.lua": "cee347e4d32c9fddee75c91183bff749bf66000ea35cd54e394e8b867f5ba17a",
+      "lib/Mat4.lua": "cbeec74848b4a404174290f259ca1166708e8979c6600a4276aa249ebd2132c1",
+      "lib/ModSetting.lua": "72d35b9161ef85118f50078f565a01857943da1cb06308ee485fe274ef2e6bf7",
+      "lib/PixelCanvas.lua": "44d725e369129d5e622eda47bba34b9101b5fc822c9a2a98c18ce75311b51e0b",
+      "lib/PoisonFlash.lua": "c2e6b0207fe32bec86b41f160c53c10846bf526a9aa7264c05513fc5b1590101",
+      "lib/Quality.lua": "108d1c9b1914695740c869b662f9344b9706eab3c8d2797d1999cefdba5d55b9",
+      "lib/ShadowMap.lua": "40959ec6a57296cb71af93383db8383fba0a3a194fb8ef80d59a45d491edcc0e",
+      "lib/Shadows.lua": "39be96e9929361cc858f4c729d7b27550dc5af36c4dae892b66365e1063f38c4",
+      "lib/Sky.lua": "5263b1ec384405d2029a1b42f6e7ad07466729de98c623671bd1c01cff64e244",
+      "lib/SpriteBillboards.lua": "bfd3389337053b2867902ee8f834586007a578d3a8b29e9188c4fb0a0fef154a",
+      "lib/StadiumBattleFxBridge.lua": "1c55160384535effa6027037a38ea7d376d14ca36f49481f52ad8f2b7c91e520",
+      "lib/Structures.lua": "329b5b364d6cf556c4e0d556ac6e264d4d42242a320fe2f5d6b26110619de2c2",
+      "lib/TerrainAtlas.lua": "bbf6691d62e914a676ae418d35cec28ad5f59d0a963c86e7acf047ce48703ec7",
+      "lib/ThirdPerson.lua": "87247c20433addfc1c114d73e97db89c005148efebc96a7aa12fcc998f73c96d",
+      "lib/TileShape.lua": "aa2395654785b9c68803c09ec5f1087566e5e688ef68383917af7a80ef144d2a",
+      "lib/TiltShift.lua": "c839742dba971a09d0dba7a7467322079975593af5183262b061fbcf4263c1f3",
+      "lib/Voxel3D.lua": "826ee5a66f02a8af7f906ca2aea07c4c4ba89ddab7b3be131b06a6781fc4aa79",
+      "lib/VoxelBattleArenaProvider.lua": "b45407d343c22c1676164cd4d08e7900ea080dfb40a36ad662f013f445f1815e",
+      "lib/VoxelBattleCardProvider.lua": "1072527ae62e2620e6038e2a860a119957dedaa4d196a102f30e6c53b5446678",
+      "lib/VoxelBattleScene.lua": "d500fcc939d8d8ae758381cbfed4d38effb77c541d910ef161074dc70a551c58",
+      "lib/VoxelBattleStandalone.lua": "d67f8f7002447988f4c8330f0082868a753ab5f5f1c5b3afa4ccdb0459c6c24b",
+      "lib/VoxelCompanionApi.lua": "6fded9c804298ab064db61b908382be7c9a74ad29d611444c33e1bcc53a33d26",
+      "lib/VoxelCompanionHost.lua": "5db7dde65af4b2f7701132015e3056b9cf4703cfd3ce2635bc792ccb4046708e",
+      "lib/VoxelCompanionRenderer.lua": "9b2e3167c3a62ea490f61bc2fe52497bf9ad7f8105525c32a65030daedf9f904",
+      "lib/VoxelGrid.lua": "8ba51b12823ec66b47dbb2b010641611325addd3e6cf6e9a36f41068198089bf",
+      "lib/VoxelLoadingVeil.lua": "f682b902022e4d8ec4fda5a46b19d29b0c2dd256605898963bf7a3dd4784011c",
+      "lib/VoxelMeshDisk.lua": "1bc23f44f672bb31e64e531cdfedff050323105aa7e1b716544a9c805b42729d",
+      "lib/VoxelPrecache.lua": "13349d55fc1ed3830177be7caa3ff7cc7746ea15fd4f4834b103ba16fc2ff621",
+      "lib/VoxelScene.lua": "f0a62de23eb0e66754a37052e0c831ebbac8dc822120c9aefe0ae162f8007cc8",
+      "lib/VoxelState.lua": "5860413242ea1444b9c08ddbe670a3502c7884d2d8519a311654073af3607ea9",
+      "lib/Water.lua": "5dba2ceae61ca0aaa2d4aec1780d6f637ce3d8f1f4bb3f88538117f92f30361e",
+      "lib/WorldCurve.lua": "91ee9b80d6b9dec75f7e643159fc9ff52a7dcd7bea06c036295dda9828831a94",
+      "main.lua": "72ecca50c1afba8e189f8f6ee505e152157d5c94b956087782e781190441c7fb",
+      "manifest.json": "5c36a83eab78e8d967cff14f3219fa60fe87849fbb850f80ce2c76a3a93bb1ef",
+      "manifest.upstream.json": "ab6addabfd24aebf1d38f2c0bd05c30fcaa0dfb105b8742a4f4af44d9ceacd25",
+      "mod.card": "012525286fbdf7e6a8c05a3a8424cce5f0afe23f8c3a4cf445f34a29e8a6d491"
+    }
+  },
+  "SHINY_POKEMON": {
+    "version": "1.0.8+jp.1",
+    "files": {
+      "JP-ADAPTATION.md": "810e5c377bc7a116847a341f6ec8d1b29637c64c6cddf8bd9e4a14c7b8d1a890",
+      "LICENSE": "7a5001bf936642033e2494495e567115e5cd94383904ac6802708674bf35a44d",
+      "README.md": "b49c4339f404cdcc15cf9264ef562654c09eb48744fed5320fa96f5b4d233073",
+      "main.lua": "7db615add7bf04f69f81ec6bf0dc83b78fb868d466805af3e9e24eaccd08ddd7",
+      "manifest.json": "b2800ba312828308ea04d80dd47ae127915f4fc35da91315f816bf1e696a4e61",
+      "manifest.upstream.json": "d737a42801e8f8ae7cfa2e9de654d52fbb3587efd71796476a0e4b0763e40813",
+      "shiny_palettes.lua": "91fca7634735387e78f367d14b73924de4f15c4d889987a04a37c67e758fc24d"
+    }
+  },
+  "erilab_bottomless_bag": {
+    "version": "1.1.0+jp.2",
+    "files": {
+      "CHANGELOG.md": "6d221963ada06ac4330f5c70a16e0661228e047c8923503b15106afcf8b935fc",
+      "JP-ADAPTATION.md": "da4cd7d5a1a58be4f0ff8e37724b58e54b1516257df9d7a5957bcde71e8118de",
+      "LICENSE": "6ebbbadd7caa6ebd74ed3dcbc43b3cf3a0b0cae92f2d3031b3da378948034f40",
+      "README.md": "18b095dc5f8ef256dc295a86aeca1313bd76f9f916ec4bf9db92196a685f4273",
+      "main.lua": "cd90315dd8585c5d37e1e953990bf738ea01d5a80ffa0473982514c4e0ccf5ef",
+      "manifest.json": "a0935acb72efef2f21a780763e49a32d00e3c0e3f6a2735c58911574427abb94",
+      "manifest.upstream.json": "9dd952cade49d43e3e388fc87aceaeaf60faddc57e362f8386d4175bd6ea7f77",
+      "mod.card": "d651e5f43a9a4409a10c5a228aea39e38bdfb9bdad7d788125da4023c172417b"
+    }
+  },
+  "running_shoes": {
+    "version": "1.10.0+jp.2",
+    "files": {
+      ".gitignore": "4364072ca4629121d6fffbbc28568ed4624adcac0560f0f240e343ecf057c7a9",
+      "CHANGELOG.md": "c9d0c2c5f704437927d2044c95efc610e74971bc7945ee1ef8d2acd3165acb72",
+      "JP-ADAPTATION.md": "728ba609cfa97ec4f987a8225f419e6531b1dca83db5dfa86ebb340fc385a538",
+      "LICENSE": "f8db0a61639b83858b1159df29e8229c2e65115398570a5422226cd80074646c",
+      "LICENSE-ART.md": "fd0f46e358a8a81d8664face5fd511328bd19257d1aa75baf824e120b85aa0ff",
+      "README.md": "cf419eb704ecf784111a9b77cb2507bc1ba1e1d21de3c2f58f96909c4c76348d",
+      "main.lua": "f08a6406c17367b65251c9e8404064f6f875d7d987577398381fb4eebe2a5e67",
+      "manifest.json": "ae8b6114dd717331b8eca62ddb8462fa97a5299b577d5e4690fc646c256ff9ab",
+      "manifest.upstream.json": "b947e57990f5c3e0cef5d6bfd7680d5e95b9ad89b2b63ce30dcc75914bb837a7",
+      "mod.card": "66f11b4a70d7f91b67ce9160a951cf1e60b0bc3ebfaa926d3aed685e35cc7799"
+    }
+  }
+}

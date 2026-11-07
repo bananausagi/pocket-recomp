@@ -1,0 +1,154 @@
+{
+  "phases": [
+    {
+      "name": "01-game-options-portrait",
+      "actions": [
+        {
+          "lua": "assert(loadfile(os.getenv('JP_MAIN_QA_ROOT')..'/tests/game_touch_editors_love/setup.lua'))()(imp)"
+        }
+      ],
+      "check": "return gameEditorQA.options==gameEditorQA.game.stack:top()"
+    },
+    {
+      "name": "02-touch-editor",
+      "actions": [
+        {
+          "lua": "gameEditorQA.select('editTouchControls')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.opened('touch');return true"
+    },
+    {
+      "name": "03-touch-adjusted",
+      "actions": [
+        {
+          "key": "="
+        }
+      ],
+      "check": "gameEditorQA.frozen();gameEditorQA.scale=require('src.core.TouchControls'):currentBucket().scale;return gameEditorQA.scale>1"
+    },
+    {
+      "name": "04-touch-back-options",
+      "actions": [
+        {
+          "key": "acback"
+        }
+      ],
+      "check": "gameEditorQA.closed();return gameEditorQA.game.save.options.touchControls.layouts.portrait.scale==gameEditorQA.scale"
+    },
+    {
+      "name": "05-touch-again",
+      "actions": [
+        {
+          "lua": "gameEditorQA.select('editTouchControls')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.opened('touch');return true"
+    },
+    {
+      "name": "06-pad-back-options",
+      "actions": [
+        {
+          "gamepad": "b"
+        }
+      ],
+      "check": "gameEditorQA.closed();return true"
+    },
+    {
+      "name": "07-skin-studio",
+      "actions": [
+        {
+          "lua": "gameEditorQA.select('openSkinStudio')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.opened('skin');return true"
+    },
+    {
+      "name": "08-skin-android-back",
+      "actions": [
+        {
+          "key": "appback"
+        }
+      ],
+      "check": "gameEditorQA.closed();return true"
+    },
+    {
+      "name": "09-skin-again",
+      "actions": [
+        {
+          "lua": "gameEditorQA.select('openSkinStudio')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.opened('skin');return true"
+    },
+    {
+      "name": "10-skin-saved",
+      "actions": [
+        {
+          "lua": "gameEditorQA.frozen();require('src.ui.SkinStudio').disableTouchControls()"
+        }
+      ],
+      "check": "return require('src.core.SaveData').loadOptions().touchControls.enabled==false"
+    },
+    {
+      "name": "11-skin-pad-back",
+      "actions": [
+        {
+          "gamepad": "b"
+        }
+      ],
+      "check": "gameEditorQA.closed();return gameEditorQA.game.save.options.touchControls.enabled==false"
+    },
+    {
+      "name": "12-skin-play-callback",
+      "actions": [
+        {
+          "lua": "gameEditorQA.select('openSkinStudio')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.opened('skin');return true"
+    },
+    {
+      "name": "13-skin-play-returns",
+      "actions": [
+        {
+          "lua": "gameEditorQA.frozen();require('src.ui.SkinStudio').onPlay('red_jp')"
+        }
+      ],
+      "check": "gameEditorQA.closed();return true"
+    },
+    {
+      "name": "14-game-options-landscape",
+      "actions": [
+        {
+          "lua": "love.window.setMode(800,480,{resizable=true,vsync=0})"
+        }
+      ],
+      "check": "local p=gameEditorQA.options.panel; return gameEditorQA.game.stack:top()==gameEditorQA.options"
+    },
+    {
+      "name": "15-other-language-preserved",
+      "actions": [
+        {
+          "lua": "gameEditorQA.finish()"
+        }
+      ],
+      "check": "return gameEditorQA.loads==1 and gameEditorQA.worldTicks==0"
+    }
+  ]
+}

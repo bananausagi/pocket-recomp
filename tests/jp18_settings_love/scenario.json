@@ -1,0 +1,158 @@
+{
+  "phases": [
+    {
+      "name": "01-home-categories",
+      "actions": [
+        {
+          "click": {
+            "id": "home-settings"
+          }
+        }
+      ],
+      "check": "return imp._ui.sheets==1 and #imp._ui.rows>=6",
+      "page": "settings"
+    },
+    {
+      "name": "02-home-display",
+      "actions": [
+        {
+          "click": {
+            "id": "settings-section-1"
+          }
+        }
+      ],
+      "check": "return imp._ui.panel and imp._ui.pageRows>=6",
+      "page": "settings-detail"
+    },
+    {
+      "name": "03-home-controls",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "for i,s in ipairs(imp._settings.sections)do if s.id=='controls'then imp._ui.focus=i end end"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "return imp._ui.panel and imp._ui.pageRows==#imp._ui.rows and #imp._ui.rows>=4",
+      "page": "settings-detail"
+    },
+    {
+      "name": "04-game-categories",
+      "actions": [
+        {
+          "lua": "assert(loadfile(os.getenv('JP_MAIN_QA_ROOT')..'/tests/jp18_settings_love/setup.lua'))()(imp)"
+        }
+      ],
+      "check": "gameEditorQA.inspect('portrait-root',7);return true"
+    },
+    {
+      "name": "05-game-display",
+      "actions": [
+        {
+          "key": "return"
+        }
+      ],
+      "check": "gameEditorQA.inspect('portrait-display',6);return gameEditorQA.game.stack:top().jpGroup=='display'"
+    },
+    {
+      "name": "06-game-controls",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "assert(gameEditorQA.options:focusRow('controls'))"
+        }
+      ],
+      "check": "gameEditorQA.inspect('portrait-controls',6);return gameEditorQA.game.stack:top().jpGroup=='controls'"
+    },
+    {
+      "name": "07-game-landscape-categories",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "love.window.setMode(800,480,{resizable=true,vsync=0})"
+        }
+      ],
+      "check": "gameEditorQA.inspect('landscape-root',7);return true"
+    },
+    {
+      "name": "08-game-landscape-display",
+      "actions": [
+        {
+          "lua": "assert(gameEditorQA.options:focusRow('jpDialogScale'))"
+        }
+      ],
+      "check": "gameEditorQA.inspect('landscape-display',4);return true"
+    },
+    {
+      "name": "09-game-landscape-controls",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "assert(gameEditorQA.options:focusRow('controls'))"
+        }
+      ],
+      "check": "gameEditorQA.inspect('landscape-controls',4);return true"
+    },
+    {
+      "name": "10-editor-and-return",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "gameEditorQA.select('editTouchControls')"
+        },
+        {
+          "key": "return"
+        },
+        {
+          "lua": "gameEditorQA.opened('touch');gameEditorQA.frozen()"
+        },
+        {
+          "key": "acback"
+        },
+        {
+          "lua": "gameEditorQA.closed()"
+        }
+      ],
+      "check": "return gameEditorQA.game.stack:top().jpGroup=='controls'"
+    },
+    {
+      "name": "11-back-retains-selection",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "local q=gameEditorQA;q.check(q.options.view[q.options.index].id=='group.controls','Back retains selected controls category')"
+        }
+      ],
+      "check": "return gameEditorQA.game.stack:top()==gameEditorQA.options"
+    },
+    {
+      "name": "12-game-mods-landscape",
+      "actions": [
+        {
+          "key": "escape"
+        },
+        {
+          "lua": "local q=gameEditorQA;q.check(#q.installed==7,'all seven installed MOD descriptors');local start=q.game.stack:top();local found=false;for i,row in ipairs(start.items)do if row.id=='system-mods'then start.index=i;found=true end end;assert(found,'START MOD route present')"
+        },
+        {
+          "key": "return"
+        }
+      ],
+      "check": "local q=gameEditorQA;local m=q.game.stack:top();local l=assert(m.panelGeometry,'actual manager rendered');q.check(m.screenId=='ManagerState'and l.visible>=5,'landscape MOD shows at least five actual MOD names');q.metrics[#q.metrics+1]={name='landscape-mods',visible=l.visible,total=#q.installed};q.checkModNavigation(m);q.finish();return true"
+    }
+  ]
+}
