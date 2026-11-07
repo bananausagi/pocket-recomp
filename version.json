@@ -1,1 +1,1 @@
-{"apkUrl":"https://github.com/bananausagi/pocket-recomp/releases/latest/download/PocketRecomp-personal.apk","note":"作り直し初版: jp.91-preview2 + WIP(3D戦闘背景ほか)を統合。署名鍵が変わったため旧版からの上書きはできず、初回は入れ直しが必要です。","versionCode":95,"versionName":"0.2.91-jp.91-personal"}
+{"apkUrl": "https://github.com/bananausagi/pocket-recomp/releases/latest/download/PocketRecomp-personal.apk", "note": "作り直し初版: jp.91-preview2 + WIP(3D戦闘背景ほか)を統合。元の jp 系列の署名鍵で署名しているため、preview2 からそのまま上書き更新できます。", "versionCode": 95, "versionName": "0.2.91-jp.91-personal"}
